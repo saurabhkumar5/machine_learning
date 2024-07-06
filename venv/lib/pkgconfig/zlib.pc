@@ -1,0 +1,13 @@
+prefix=/home/asus/ml/venv
+exec_prefix=/home/asus/ml/venv
+libdir=/home/asus/ml/venv/lib
+sharedlibdir=/home/asus/ml/venv/lib
+includedir=/home/asus/ml/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
